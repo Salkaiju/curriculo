@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Currículo</title>
+    <!-- Bootstrap e Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Seu CSS local -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="cv-card">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="assets/S4.jpg" alt="Foto de perfil" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-9">
+                    <h2>Olá,<br>eu sou Gabriel K.</h2>
+                    <div class="mb-2"><i class="fa fa-code"></i> Desenvolvedor </div>
+                    <div class="info-contato mb-2">
+                        <div><i class="fa fa-map-marker"></i> Alvorada - RS</div>
+                        <div><i class="fa fa-phone"></i> (+55) 51 990015105</div>
+                        <div><i class="fa fa-envelope-open"></i> gabrielkarkotli@live.com</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion -->
+            <div class="accordion mt-4" id="cvAccordion">
+
+                <!-- Skills -->
+                <div class="card">
+                    <div class="card-header" id="skillsHeading">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse" data-target="#skills" aria-expanded="true" aria-controls="skills">
+                                Skills
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="skills" class="collapse" aria-labelledby="skillsHeading" data-parent="#cvAccordion">
+                        <div class="card-body">
+                            <div class="skill-item">
+                                <strong>Front-end</strong> - HTML, CSS, JavaScript <br>
+                                <strong>Back-end</strong> - Java, C++ <br>
+                                <strong>Mais</strong> - MySQL, phpmyadmin, Git.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Idiomas -->
+                <div class="card">
+                    <div class="card-header" id="languagesHeading">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse" data-target="#languages" aria-expanded="false" aria-controls="languages">
+                                Idiomas
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="languages" class="collapse" aria-labelledby="languagesHeading" data-parent="#cvAccordion">
+                        <div class="card-body">
+                            <div class="language-item">
+                                <strong>Português</strong> - Nativo <br>
+                                <strong>Inglês</strong> - Segunda Língua (Avançado)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Educação -->
+                <div class="card">
+                    <div class="card-header" id="educationHeading">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse" data-target="#education" aria-expanded="false" aria-controls="education">
+                                Educação
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="education" class="collapse" aria-labelledby="educationHeading" data-parent="#cvAccordion">
+                        <div class="card-body">
+                            <div class="education-item">
+                                <strong>Ensino Médio</strong> - Escola Estadual de Ensino Médio Senador Salgado Filho, Concluído - 2021. <br>
+                                <strong>Técnico em Informática</strong> - Escola Técnica Estadual Alvorada, Em Curso - Término previsto para 2026.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfólio -->
+                <div class="card">
+                    <div class="card-header" id="portfolioHeading">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse" data-target="#portfolio" aria-expanded="false" aria-controls="portfolio">
+                                Portfólio
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="portfolio" class="collapse" aria-labelledby="portfolioHeading" data-parent="#cvAccordion">
+                        <div class="card-body">
+                            Ainda não possuo um portfólio, mas estou trabalhando em projetos pessoais para demonstrar minhas habilidades.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiência -->
+                <div class="card">
+                    <div class="card-header" id="experienceHeading">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left text-dark" type="button" data-toggle="collapse" data-target="#experience" aria-expanded="false" aria-controls="experience">
+                                Experiência
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="experience" class="collapse" aria-labelledby="experienceHeading" data-parent="#cvAccordion">
+                        <div class="card-body">
+                            <!-- Experiências podem ser adicionadas aqui futuramente -->
+                             Ainda não possui experiências na área de TI, mas estou aberto a oportunidades.
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- Fim do accordion -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
